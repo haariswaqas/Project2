@@ -32,13 +32,13 @@ layout = [
      sg.Button('Exit', button_color=('white', 'firebrick'), font=('Helvetica', 12, 'bold'), size=(10,1), pad=((0,50),(10,10)))]
 ]
 
+
+
+# create the window
 window = sg.Window('Text-to-Speech Application', layout, size=(600, 250), background_color='lightgrey', resizable=True, element_justification='center', finalize=True)
 
 
 
-# create the window
-#window = sg.Window('Text-to-Speech Application', layout, size=(600, 250), background_color='black', resizable=True,
- #                  element_justification='center', font=('Helvetica', 12), finalize=True)
 
 # create an event loop to process events and update the GUI
 while True:
